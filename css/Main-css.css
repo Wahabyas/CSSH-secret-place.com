@@ -1,0 +1,347 @@
+body{
+    background-color:rgba(34, 32, 32, 0.311);
+    padding: 0;
+    margin: 0;
+}
+.header-index{
+    display: flex;
+    justify-content: center;
+    height: 1px auto;
+    background-color: black;
+
+}
+.header-home{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+
+}
+.title{
+    color: aliceblue;
+    font-style: italic;
+}
+.container-login{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-title{
+    color: aliceblue;
+    font-style: italic; 
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(6, 32, 28);
+    height: 400px ;
+    width: 350px;
+    border-radius: 5px;
+}
+.form-wrapp{
+    display: flex;
+}
+.important-note{
+    float: right;
+    color: red;
+    font-size: small;
+    cursor: pointer;
+}
+.close_btn{
+    padding: 10px;
+    height:20px;
+    width:20px;
+    float:right;
+    cursor: pointer;
+    color: white;
+}
+
+small{
+    color: aliceblue;
+    font-style: italic; 
+}
+button{
+    float: right;
+    margin: 20px;
+    padding: 10px 20px;
+}
+.container-note{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    z-index: 1;
+}
+.note-spacer{
+display: flex;
+width: 100%;
+justify-content: flex-end;
+
+}
+.note{
+    display: flex;
+    flex-direction: column;
+
+    height: 450px;
+    width: 300px;
+    background-color: rgb(6, 32, 28);
+    margin: 30px;
+    border-radius: 10px;
+}
+.aligner{
+    display:flex;
+    width:100%;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    justify-content: center;
+}
+h2{
+    color: aliceblue;
+    font-style: italic;  
+    padding: 20px;
+}
+.container-body{
+    display: flex;
+    flex-direction: row;
+}
+.primary-settings{
+    display: block;
+    width:20% ;
+    background-color: rgb(71, 68, 68);
+    padding-top: 0;
+    height: 91.5vh;
+    overflow-y: scroll;
+}
+.ul-primary-settings{
+    display: block;
+    margin: 0;
+    
+
+}
+li{
+margin: 20px;
+list-style: none;
+ border-top: 3px solid rgb(21, 26, 28);
+ margin: 0;
+ font-size: 1.5rem;
+ padding: 20px;
+}
+li:hover{
+    color:aquamarine;
+    cursor: pointer;
+}
+.transaction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    width: 90%;
+    border-radius: 5px;
+}
+.profile-user{
+    height: 10vh;
+    width: 20vh;
+    background-color: black;
+    border-radius: 100%;
+    margin: 5%;
+}
+.profile-users{
+    height: 10vh;
+    width: 10vh;
+    background-color: black;
+    border-radius: 100%;
+   margin: 5px;
+}
+
+.container-transaction{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.profile-notif-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.txt-notif{
+    margin: 3px;
+}
+.Feed{
+    width: 60%;
+    height: 91.5vh;
+    background-color: rgb(225, 219, 211);
+    overflow-y: scroll;
+}
+.input-post{
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    font-size: large;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+}
+.divider-button{
+    display: flex;
+    flex-direction: row;
+}
+
+.user-profile{
+
+    height: 15vh;
+    width: 15vh;
+    background-color: black;
+    border-radius: 100%;
+    margin: 2%;
+  
+}
+.nav-feed-container{
+    border-bottom: 1px solid;
+}
+.feed-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.feed-nav-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.timer{
+    color: black;
+}
+.picture{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+}
+.feed-action{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5%;
+    border-bottom: 1px solid;
+}
+.feed-action div{
+    display: block;
+    font-size: 1rem;   
+}
+.feed-action div:hover{
+color: aqua;
+cursor: pointer;
+}
+.divider{
+    border: 0.3px solid;
+        height: 100%;
+
+}
+.feed-main-header{
+    height: 15%;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    
+}
+.my-profile-feed{
+   
+    height: 10vh;
+    width: 10vh;
+    background-color: black;
+    border-radius: 100%;
+    margin: 2%;
+}
+.chats{
+    width: 20%;
+    height: 91.5vh;
+    background-color: bisque;
+    overflow-y: scroll;
+}
+.input-search{
+    width: 40%;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid;
+
+}
+.profile-container-chats{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.Chat-title{
+   margin: 4pxpx;
+}
+.container-title-chats{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid;
+}
+.chat-container{
+    height: 13%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+   
+}
+.profile-chats{
+     height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 100%;
+    margin: 5px;
+}
+.chat-container:hover{
+ background-color: azure;
+}
+.message-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.name-chats{
+    margin: 2px;
+}
+.message{
+    color: black;
+}
+@media (max-width:753px){
+.primary-settings{
+    display: none;
+}
+.chats{
+    display: none;
+}
+.Feed{
+    width: 100%;
+}
+
+}
+@media (max-width:930px) {
+    .profile-notif-container{
+        display:inline;
+    }
+    .profile-user{
+         height: 10vh;
+         width: 10vh;
+    }
+}
